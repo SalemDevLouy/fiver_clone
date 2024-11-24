@@ -8,7 +8,7 @@ class Subject {
     addObserver(observer) {
         this.observers.push(observer);
     }
-    //whene a people joining to premium memberships
+    //When people withdraw from premium memberships
     removeObserver(observer) {
         this.observers = this.observers.filter(obs => obs !== observer);
     }
